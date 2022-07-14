@@ -1,0 +1,30 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid $c-white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 320px) {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}

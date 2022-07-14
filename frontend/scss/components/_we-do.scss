@@ -1,0 +1,24 @@
+.we-do {
+  &__wrapper {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  &__line {
+    border: 1px solid $c-black;
+    width: 76px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: $fs-44;
+    font-family: $f-montserrat;
+    font-weight: 700;
+    margin-bottom: 100px;
+
+    @media (max-width: 480px) {
+      font-size: 30px;
+    }
+  }
+}

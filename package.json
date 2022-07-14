@@ -1,0 +1,14 @@
+{
+  "name": "finally",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"   
+  },
+  "author": "lmachiha31@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

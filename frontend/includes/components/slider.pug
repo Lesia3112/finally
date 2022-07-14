@@ -1,0 +1,22 @@
+mixin slider()
+  //- контейнер 
+  .slider.container#news
+    //- обгортка
+    .slider__wrapper
+      //- лінія
+      .slider__line
+      //- заголовок
+      h2.slider__title LATEST NEWS
+      //- +блок з swiper
+      +swiper()
+      //- кнопки
+      .slider__navigation
+        button#js-slider-button-next.slider__button-next(type="button")
+          i.fa-solid.fa-angle-right
+        button#js-slider-button-prev.slider__button-prev(type="button")
+          i.fa-solid.fa-angle-left
+
+
+
+
+
